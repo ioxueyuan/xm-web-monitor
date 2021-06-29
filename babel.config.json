@@ -1,0 +1,20 @@
+{
+	"presets": [
+		// [
+		// 	"@babel/env",
+		// 	{
+		// 		"useBuiltIns": "usage",
+		// 		"corejs": 3
+		// 	}
+		// ]
+	],
+	"plugins": [
+		// 此插件方式和上方的env方式选其一就行，https://segmentfault.com/a/1190000021188054
+		[
+			"@babel/plugin-transform-runtime",
+			{
+				"corejs": 3
+			}
+		]
+	]
+}
